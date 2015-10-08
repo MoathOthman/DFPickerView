@@ -53,7 +53,7 @@
         
         [self setFrame:CGRectMake(0,
                                   [UIScreen mainScreen].applicationFrame.size.height,
-                                  320,
+                                  [UIScreen mainScreen].applicationFrame.size.width,
                                   260)];
         
         [self layout];
